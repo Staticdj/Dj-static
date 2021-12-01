@@ -399,7 +399,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: url(../img/RnBWagga.JPG);
+    background-image: url(img/RnBWagga.JPG);
     background-size: 500px;
   }
   
@@ -528,7 +528,7 @@
   }
   
   .services__card:nth-child(2) {
-    background-image: ;
+    background-color: #00dbde;
     background: #1fa2ff; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
