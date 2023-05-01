@@ -34,12 +34,16 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">Feel the <span>Music</span></h1>
-        <p class="hero__description">Club | Corporate | Weddings | Birthdays</p><br>
-        <p class="hero-blog">This is my first webpage design using HTML and CSS</p>
+    <!-- function Section -->
+    <div class="function" id="home">
+      <div class="function__container">
+        <h1 class="function__heading">Feel the <span>Music</span></h1>
+          <div class="dj_container">
+          <p id=my_name class="reveal">DJ S.T.A.T.I.C</p>
+          <p class="hidden">Sin, Trails & Temptation I'll Conquer</p>
+          </div>
+        <p class="function_type">Club | Corporate | Weddings | Birthdays</p><br>
+        <p class="function-blog">This is my first webpage design using HTML and CSS</p>
         <button class="main__btn"><a href="#">Explore</a></button>
       </div>
     </div>
@@ -94,10 +98,14 @@
             <img style="width: 330px"; height="440px" src="img\Punt-hotel-NYE-Glow-Night-Flyer-.jpg" alt="Halloween">
             <img style="width: 330px"; height="440px" src="img\staticclubhouse5thoct.jpg" alt="Halloween">
             <img style="width: 330px"; height="440px" src="img\hILLSCLUBHOUSE.jpg" alt="Halloween">
-        </div>
-      </div>
+            <img style="width: 330px"; height="440px" src="img/RnBWagga.JPG" alt="Waggarnb">
+            <img style="width: 330px"; height="440px" src="" alt="Waggarnb">
 
-    <!-- Features Section -->
+
+        </div>
+        
+
+    <!-- Sign-up Section -->
     <div class="main" id="sign-up">
       <div class="main__container">
         <div class="main__content">
@@ -105,7 +113,28 @@
           <h2>Sign Up Today</h2>
           <p>Know where I'm playing next!</p>
           <button class="main__btn"><a href="#">Sign Up</a></button>
-        </div>
+        </div><br>
+        <div>
+          <form class="signup">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Ename">Email:</label><br>
+            <input type="text" id="Ename" name="Ename">
+            
+            <br><br>
+            <p>Select the type of function</p>
+            <input type="radio" id="Birthday" name="fav_language" value="Birthday">
+            <label for="Birthday">Birthday</label><br>
+            <input type="radio" id="Wedding" name="fav_language" value="Wedding">
+            <label for="Wedding">Wedding</label><br>
+            <input type="radio" id="Corporate" name="fav_language" value="Corporate">
+            <label for="javascript">Corporate</label><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div><br>
         <div class="main__img--container">
           <video id="background-video" autoplay loop muted>
             <source src="img\dj sTATIC PROMO.mp4" type="video/mp4">
@@ -120,20 +149,17 @@
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>About Us</h2>
-            <a href="/sign__up">How it works</a> <a href="www.djstatic.net">Testimonials</a>
-            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
           </div>
           <div class="footer__link--items">
             <h2>Contact Us</h2>
             <a href="/">Contact</a> <a href="/">Support</a>
-            <a href="/">Destinations</a>
           </div>
         </div>
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>Social Media</h2>
-            <a href="/">Instagram</a> <a href="/">Facebook</a>
-            <a href="/">Youtube</a> <a href="/">Twitter</a>
+            <a href="https://www.instagram.com/freddiemoala/">Instagram</a> <a href="https://www.facebook.com/deejaystatic/">Facebook</a>
           </div>
         </div>
       </div>
@@ -142,22 +168,13 @@
           <div class="footer__logo">
             <a href="/" id="footer__logo">DJ Static</a>
           </div>
-          <p class="website__rights">2021 HTML Project</p>
+          <p class="website__rights">2023 HTML/CSS Project</p>
           <div class="social__icons">
             <a href="/" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
             ></a>
             <a href="/" class="social__icon--link"
               ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-twitter"></i
             ></a>
           </div>
         </div>
